@@ -1,4 +1,6 @@
 package clinic.programming.training;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Application {
     
@@ -10,5 +12,6 @@ public class Application {
     public static void main (String[] args) {
     	System.out.println ("Starting Application");
 	Application app = new Application();
+	List<String> greetings = new ArrayList<>();
     }
 }
